@@ -1,0 +1,16 @@
+/*
+  This CSS file sets up Tailwind CSS for the project.
+
+  - @tailwind base: Loads Tailwind's base styles (preflight).
+  - @tailwind components: Loads any component classes from Tailwind.
+  - @tailwind utilities: Loads utility classes from Tailwind.
+  - @import "tailwindcss": Imports the Tailwind CSS framework.
+
+  Usage:
+  Add custom styles below these directives or configure Tailwind via its config file.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
