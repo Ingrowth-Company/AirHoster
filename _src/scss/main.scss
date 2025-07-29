@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// main.scss
+// This file serves as the main entry point for importing layout-related SCSS
+// modules. It includes the header, footer, and navigation styles to compose
+// the overall structure and appearance of the site.
+// -----------------------------------------------------------------------------
+
+// -----------------------------------------------------------------------------
+// Este arquivo importa apenas seus módulos SCSS.
+// -----------------------------------------------------------------------------
+// NÃO importe o tailwind.css aqui!
+
+@use "layout/header";
+@use "layout/footer";
+@use "layout/nav";
